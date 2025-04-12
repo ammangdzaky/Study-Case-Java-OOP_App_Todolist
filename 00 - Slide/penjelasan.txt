@@ -1,0 +1,13 @@
+diagram clean architecture
+
+devices         -> framework/teknologi yang digunakan (bukan kita yang handle)
+controllers     -> view
+use cases       -> business logic
+entites         -> representasi dari datanya
+
+
+alurnya:
+
+web dekstop(view)   -> service(business logic)  -> repository(tempat manipulasi data)   -> entity
+
+-> = call
